@@ -65,6 +65,6 @@ body {
     transform: scale(0.9);
 }
 
-#click-btn:hover (
+#click-btn:hover { 
     transform: scale(1.2);
-)
+}
