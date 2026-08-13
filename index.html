@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krisha's Silly Booth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="app-header">
+        <!--logo display-->
+        <img src="Assets/sillybooth.svg" alt="sillybooth-logo" class="site-logo"/>
+    </header>
+
+    <!--wrapper class to structure webcam and other elements-->
+    <div class="booth-wrapper">
+
+        <!--contains live webcam and snap button-->
+        <div class="booth-container">
+            <video autoplay="true" id="videoElement"></video> <!--live webcam display-->
+            
+            <!--click picture button to take pictures-->
+            <button id="click-btn">
+                <img src="Assets/click-picture-btn.svg" alt="click picture button"/>  
+            </button>
+
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+</html> 
