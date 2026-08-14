@@ -58,6 +58,37 @@ body {
     overflow: hidden;
 }
 
+#overlayCountdown {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: #000000;
+    font-family: courier;
+}
+
+#overlayCountdown.pulse {
+    animation: countdownPop 1s ease;
+}
+
+@keyframes countdownPop {
+    0% {
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+    }
+
+    30% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 1;
+    }    
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
 /*click picture button*/
 #click-btn {
     background: none;

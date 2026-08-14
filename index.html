@@ -18,7 +18,10 @@
 
         <!--contains live webcam and snap button-->
         <div class="booth-container">
-            <video autoplay="true" id="videoElement"></video> <!--live webcam display-->
+            <div class="video-wrap">
+                <video autoplay="true" id="videoElement"></video> <!--live webcam display-->
+                <div id="overlayCountdown" class="hidden">3</div>  <!--countdown overlay-->
+            </div>
 
             <canvas id="capture-picture" class="hidden"></canvas>
             
