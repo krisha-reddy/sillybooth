@@ -1,0 +1,58 @@
+/*CSS for decorate page*/
+body {
+    background-color: #fff4f6;
+}
+
+.decorate-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+}
+
+.photo-stage {
+    flex: 1 1 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.stickerTray {
+    flex: 1 1 150px;
+    background-image: radial-gradient(circle, #f1cccc 1 px, transparent 1 px);
+    background-size: 16px 16px;
+    background-color: #e09494;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.stickerGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 12px;
+}
+
+.sticker-slot {
+    background-color: #ffffff;
+    border: 2px dashed #ecc8d3;
+    border-radius: 12px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.16s  ease;
+}
+
+.sticker-slot:hover {
+    transform: scale(1.05);
+}
+
+.sticker-placeholder {
+    width: 60%;
+    height: 60%;
+    background-color: #f78bbe;
+    border-radius: 6px;
+}

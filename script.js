@@ -67,4 +67,8 @@ function takePic() {
     const imageData = canvas.toDataURL('img/png');
 
     sessionStorage.setItem('boothPic', imageData);
+
+    setTimeout(function() {
+        window.location.href = "decorate.html";
+    }, 1300);
 }
