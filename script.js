@@ -53,7 +53,7 @@ function triggerFlash() {
 }
 
 function takePic() {
-    const canvas = document.getElementById('capture-pic');
+    const canvas = document.getElementById('capture-picture');
     const context = canvas.getContext('2d');
 
     canvas.width = video.videoWidth;
