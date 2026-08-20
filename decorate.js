@@ -1,9 +1,9 @@
 //display the saved photo
 const takenPic = sessionStorage.getItem('boothPic');
-const finalPic = document.getElementById('finalPic');
+const finalPhoto = document.getElementById('finalPic');
 
 if (takenPic) {
-    finalPic.src = takenPic;
+    finalPhoto.src = takenPic;
 } else {
     console.log("Picture not found!");
 }
