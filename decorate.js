@@ -1,6 +1,6 @@
 //display the saved photo
 const takenPic = sessionStorage.getItem('boothPic');
-const finalPhoto = document.getElementById('finalPic');
+const finalPhoto = document.getElementById('finalPhoto');
 
 if (takenPic) {
     finalPhoto.src = takenPic;
