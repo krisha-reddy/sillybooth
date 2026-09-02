@@ -28,7 +28,7 @@ body::before {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 30px;
     padding: 20px;
     min-height: calc(100vh - 140px);
@@ -109,6 +109,7 @@ body::before {
     transform: rotate(-4deg);
     max-width: 400px;
     width: 100%;
+    margin-top: 23px;
     box-sizing: border-box;
 
     opacity: 0;
