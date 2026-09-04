@@ -10,14 +10,22 @@
 <body>
     <header class="app-header">
         <!--logo display-->
-        <img src="Assets/sillybooth.svg" alt="sillybooth-logo" class="site-logo"/>
+        <a href="index.html">
+            <img src="Assets/sillybooth.svg" alt="sillybooth-logo" class="site-logo"/>
+        </a>  
     </header>
 
     <div class="decorate-page">
         <div class="photo-stage">
             <div class="polaroid-frame">
-                <img id="finalPhoto" class="polaroid-photo"/>
+                <div class="polaroid-photo-wrap">
+                    <img id="finalPhoto" class="polaroid-photo"/>
+                </div>
             </div>
+
+            <button id="download-btn" class="download-button">
+                <img src="Assets/download-img.svg" alt="Download Image"/>
+            </button> 
         </div>
 
         <div class="sticker-tray-column">
@@ -69,7 +77,7 @@
             </div>
 
         </div>
-        <button >Click Here</button>
+        
         </div>
          
     </div>
